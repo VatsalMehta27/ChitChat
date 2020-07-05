@@ -1,9 +1,9 @@
 import socket
 import threading
 
-hostname = input('Enter the hostname: ')
+hostname = input('Enter the hostname: ') #127.0.0.1
 print('Hostname: ', hostname)
-port = int(input('Enter the port number: '))
+port = int(input('Enter the port number: ')) #1234
 print('Port: ', port)
 
 # Dictionary of all connected clients
